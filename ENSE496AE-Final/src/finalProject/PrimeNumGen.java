@@ -9,7 +9,7 @@ public class PrimeNumGen {
 	      int i =0;
 	      int num =0;
 	      String  primeNumbers = "";
-	      long n = 999999999;
+	      long n = 999999999999999999L;
 	      long startTime = System.nanoTime();
 	      for (i = 1; i <= n; i++){
 	    	  int counter=0; 		  

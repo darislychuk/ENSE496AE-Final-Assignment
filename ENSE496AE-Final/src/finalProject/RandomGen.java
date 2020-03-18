@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 public class RandomGen {
 		 
 	    public static void main(String args[]){
-	        Random rand = new Random(40236);
+	        Random rand = new Random(40236L);//Make sure to keep the L at the end when changing the prime
 	    
 	        try
 	        {
